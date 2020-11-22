@@ -1,0 +1,12 @@
+{
+  "name": "Disney Auto Skip",
+  "version": "1.0",
+  "description": "Disney Auto Skip",
+  "content_scripts": [
+    {
+      "matches": ["https://www.disneyplus.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
